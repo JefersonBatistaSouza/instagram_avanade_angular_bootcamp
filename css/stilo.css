@@ -25,6 +25,7 @@ section {
 }
 
 .container .imagem {
+    display: block;
     width: 454px;
     height: 618px;
     background-image: url("/midia/celular.png");
@@ -32,9 +33,16 @@ section {
 }
 
 .imagem img {
+    position: absolute;
     float: right;
     margin-top: 100px;
-    margin-right: 63px
+    margin-left: 151px;
+    opacity: 0;
+    transition: opacity 3.5s;
+}
+
+.imagem img.selected {
+    opacity: 1;
 }
 
 .container .login {
