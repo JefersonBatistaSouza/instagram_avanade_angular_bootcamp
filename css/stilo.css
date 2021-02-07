@@ -28,7 +28,7 @@ section {
     display: block;
     width: 454px;
     height: 618px;
-    background-image: url("/midia/celular.png");
+    background-image: url("../midia/celular.png");
     background-repeat: no-repeat;
 }
 
