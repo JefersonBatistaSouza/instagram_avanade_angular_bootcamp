@@ -1,0 +1,16 @@
+@media only screen and (max-width:850px) {
+    .container .imagem {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .container .login,
+    .cadastrar {
+        padding: 0px;
+        border: 0px;
+    }
+    .form-login .input-form input {
+        width: 230px;
+    }
+}

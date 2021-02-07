@@ -1,13 +1,14 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color:#141414;
+    color: #141414;
     text-decoration: none;
     font-size: 14px;
 }
-section{
-    display:flex;
+
+section {
+    display: flex;
     flex-direction: row;
     width: 100vw;
     height: 100vh;
@@ -15,101 +16,127 @@ section{
     align-items: center;
     background-color: #FAFAFA;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.container .imagem{
+
+.container .imagem {
+    width: 454px;
+    height: 618px;
     background-image: url("/midia/celular.png");
-    background-size:455px 618px;
+    background-repeat: no-repeat;
 }
-.container .login{
+
+.imagem img {
+    float: right;
+    margin-top: 100px;
+    margin-right: 63px
+}
+
+.container .login {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
     padding: 30px 40px 0px 40px;
     background-color: #fff;
 }
-.login .logo{
+
+.login .logo {
     margin-bottom: 20px;
 }
-.form-login{
+
+.form-login {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-
 }
-.form-login .input-form{
+
+.form-login .input-form {
     margin-bottom: 5px;
 }
-.form-login .input-form input{
+
+.form-login .input-form input {
     padding: 10px;
     width: 250px;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
-.form-login .botao{
+
+.form-login .botao {
     margin-top: 15px;
     text-align: center;
 }
-.form-login .botao input{
+
+.form-login .botao input {
     padding: 10px;
     width: 100%;
     background-color: dodgerblue;
-    border:0px;
+    border: 0px;
     box-shadow: 2px 2px 5px #ccc;
     font-size: 12px;
-    color:#fff;
+    color: #fff;
     font-weight: bold;
     border-radius: 5px;
 }
-.divisor{
-    margin-top:20px;
+
+.divisor {
+    margin-top: 20px;
 }
-.login-social{
+
+.login-social {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     text-align: center;
 }
-.login-social a{
+
+.login-social a {
     padding-bottom: 15px;
 }
-.login-social #link-facebook{
-    color:#385185;
+
+.login-social #link-facebook {
+    color: #385185;
     font-weight: bold;
 }
-.login-social i{
+
+.login-social i {
     font-size: 18px;
-    color:#385185;
+    color: #385185;
 }
-.cadastrar{
-    border:1px solid #ccc;
+
+.cadastrar {
+    border: 1px solid #ccc;
     margin-top: 10px;
-    padding: 15px;
-    width: 92%;
+    padding: 25px;
+    width: 85%;
     text-align: center;
     background-color: #FAFAFA;
 }
-.cadastrar a{
-    color:dodgerblue;
+
+.cadastrar a {
+    color: dodgerblue;
     font-weight: bold;
 }
-.download-app{
+
+.download-app {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
     padding: 15px;
     text-align: center;
 }
-.download-app label{
+
+.download-app label {
     margin-bottom: 20px;
 }
-.download-app .botao-download .btn{
+
+.download-app .botao-download .btn {
     margin-left: 10px;
-    border:0px;
+    border: 0px;
 }
